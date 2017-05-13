@@ -1,0 +1,170 @@
+/*更改表头背影色*/
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar,
+[nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+    background: #ffc900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-wrap {
+    margin: 0;
+    padding: 0;
+}
+
+.bar .title {
+    margin: 0;
+}
+.bar.bar-stable .title{
+    color:#fff;
+}
+.button .icon{
+    color:#fff;
+}
+
+
+/*首页头部*/
+
+.title-three {
+    width: 100%;
+    height: 44px;
+    margin: 0;
+    padding: 0
+}
+
+.title-three span {
+    display: block;
+    float: left;
+    height: 44px;
+}
+
+.title-three span:nth-child(1) {
+    width: 25%;
+}
+
+.title-three span:nth-child(2) {
+    width: 65%;
+    position: relative;
+}
+
+.title-three span:nth-child(2) img {
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.title-three .search-style {
+    border: 1px solid #fff;
+    height: 32px;
+    margin: 6px;
+    width: 92%;
+    border-radius: 20px;
+    padding: 0 28px;
+}
+
+.title-three span:nth-child(3) {
+    width: 10%;
+}
+
+
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #999;
+}
+
+/*头部tab*/
+.no-padding{
+    padding:0;
+    top:48px!important;
+}
+ion-tabs.tabs-color-active-energized .tab-item.tab-item-active, ion-tabs.tabs-color-active-energized .tab-item.active, ion-tabs.tabs-color-active-energized .tab-item.activated{
+    border-bottom:2px solid #ffc900;
+}
+
+/*滑动样式*/
+
+.slider {
+    height: 100%;
+}
+
+.slider-slide {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+.slider-pager{
+	font-size:12px;
+	bottom:8px;
+}
+
+.slider-pager .slider-pager-page{
+	color:#feca00;
+}
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.box {
+    height: 100%;
+}
+
+.box h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*底部美食*/
+.choose_city_abc{
+    border-bottom:solid 1px #e1e1e1;
+    border-right:solid 1px #e1e1e1;
+    border-top:solid 1px #e1e1e1;
+}
+.choose_city_border{
+    border-bottom:solid 1px #e1e1e1;
+    border-right:solid 1px #e1e1e1;
+}
+.choose_city_data{
+    padding-left: 22px;
+}
+.choose_city_border:nth-last-child(2){
+    border-bottom:0;
+    border-right:solid 1px #e1e1e1;
+}
+/*底部故事*/
+/*底部我的*/
+
+
+/*首页页面*/
+/*美食页面*/
+.wel_style{
+    
+}
+.city_food_wrap{
+
+}
+/*故事页面*/
+/*我的页面*/

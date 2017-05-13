@@ -1,0 +1,75 @@
+<ion-view>
+    <ion-nav-title class="bar bar-energized">
+        <ion-header-bar class="bar bar-energized title-wrap">
+            <div class="title-three">
+                <span>
+                    旅途美食
+                </span>
+                <span>
+                    <form ng-submit="search(search.search_text)">
+                        <img src="img/search.png">
+                        <input class="search-style" type="search" ng-model="search.search_text" placeholder="美味在路上..." ng-change="startDot()"/>
+                        <i style="color:#ccc;display:{{searchEmptyShow?'block':'none'}};" class="ion-close-circled close-btn" ng-click="searchEmpty(search.search_text)"></i>
+                    </form>
+                </span>
+                <span>
+                    <i class="icon ion-heart"></i>
+                </span>
+            </div>
+        </ion-header-bar>
+    </ion-nav-title>
+    <ion-tabs class="tabs-clam tabs-striped tabs-top">
+        <ion-tab title="推荐" href="#/tab/recommend">
+            <ion-content class="slider-height" animation="slide-left-right-ios7" style="padding:0;top:94px;">
+                <ion-slide-box does-continue="true" auto-play="true" active-slide="myActiveSlide" style="height:120px;">
+                    <ion-slide>
+                        <div class="box blue">
+                            <h1>BLUE</h1></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box yellow">
+                            <h1>YELLOW</h1></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box pink">
+                            <h1>PINK</h1></div>
+                    </ion-slide>
+                </ion-slide-box>
+                <p>Hello!</p>
+                <p>Hello!</p>
+                <p>Hello!</p>
+                <p>Hello!</p>
+                <p>Hello!</p>
+                <p>Hello!</p>
+                <p>Hello!</p>
+            </ion-content>
+        </ion-tab>
+        <ion-tab title="旅途">
+            <ion-view>
+                <ion-content class="balanced-bg">
+                    tab 2 content
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="美食">
+            <ion-view>
+                <ion-content class="energized-bg">
+                    tab 3 content
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="学堂">
+            <ion-view>
+                <ion-content class="energized-bg">
+                    tab 3 content
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="视频">
+            <ion-view>
+                <ion-content class="energized-bg">
+                    tab 3 content
+                </ion-content>
+            </ion-view>
+    </ion-tabs>
+</ion-view>

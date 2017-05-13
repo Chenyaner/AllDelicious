@@ -1,0 +1,96 @@
+<ion-view view-title="{{city_name}}">
+    <ion-content style="background:#f4f4f4;">
+        <style>
+        .wel_style {
+            padding: 10px;
+            font-size: 16px;
+            color: #ffc900;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+            background: #fff;
+        }
+        
+        .city_food_wrap {
+            width: 100%;
+            border-top: 1px solid red;
+            border-bottom: 1px solid blue;
+            margin-top: 30px;
+        }
+        
+        .city_food_wrap .city_food_con {
+            width: 100%;
+            position: relative;
+            background: #fff;
+        }
+        
+        .city_food_wrap .city_food_con .city_food_name {
+            display: inline-block;
+            padding: 10px 20px;
+            background: -webkit-linear-gradient(left, #ffc900, orange);
+            font-size: 18px;
+            color: #fff;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            top: -20px;
+            position: absolute;
+            z-index: 100;
+        }
+        
+        .city_food_main {
+            overflow: hidden;
+        }
+        
+        .city_food_main .img_name {
+            float: left;
+            width:46%;
+            margin: 2%;
+            position: relative;
+        }
+        
+        .city_food_main .img_name img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .city_food_main .img_name div {
+            position: absolute;
+            bottom: 0px;
+            display: inline-block;
+            width: 100%;
+            color: #000;
+            background: #fff;
+            text-align: center;
+        }
+        .city_food_main .img_name div  p{
+            margin:0;
+            color:#333;
+            font-size:12px;
+        }
+        .city_food_main .img_name div  p a{
+            font-size:14px;
+            color:#f00;
+        }
+        </style>
+        <p class="wel_style">{{city_name}}美食 · 尽在旅途中</p>
+        <div class="city_food_wrap">
+            <div class="city_food_con">
+                <span class="city_food_name">{{city_name}}美食</span>
+            </div>
+            <div class="city_food_main">
+                <div class="img_name">
+                    <img src="img/flower.png" />
+                    <div>
+                        <p>哈尔滨红肠<a style="color:#444;font-size:12px;padding-left:5px;">产地:哈尔滨</a></p>
+                        <p style="text-align:left;color:#f00;padding: 0 10px;">
+                            ¥<a>12</a>
+                            
+                            <i class="ion-ios-cart-outline" style="position: absolute;right: 10px;font-size: 14px;"></i>
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+
